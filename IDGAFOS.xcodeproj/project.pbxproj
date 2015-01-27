@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10DBFC9192841C600E7C890 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10DBFC8192841C600E7C890 /* Cocoa.framework */; };
+		E10DBFCB192841C600E7C890 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10DBFCA192841C600E7C890 /* ScreenSaver.framework */; };
+		E10DBFD5192841C600E7C890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E10DBFD3192841C600E7C890 /* InfoPlist.strings */; };
+		E10DBFD9192841C600E7C890 /* IDGAFOSView.m in Sources */ = {isa = PBXBuildFile; fileRef = E10DBFD8192841C600E7C890 /* IDGAFOSView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E10DBFC5192841C600E7C890 /* IDGAFOS.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDGAFOS.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10DBFC8192841C600E7C890 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E10DBFCA192841C600E7C890 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		E10DBFCD192841C600E7C890 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E10DBFCE192841C600E7C890 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E10DBFCF192841C600E7C890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E10DBFD2192841C600E7C890 /* IDGAFOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDGAFOS-Info.plist"; sourceTree = "<group>"; };
+		E10DBFD4192841C600E7C890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E10DBFD6192841C600E7C890 /* IDGAFOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDGAFOS-Prefix.pch"; sourceTree = "<group>"; };
+		E10DBFD7192841C600E7C890 /* IDGAFOSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDGAFOSView.h; sourceTree = "<group>"; };
+		E10DBFD8192841C600E7C890 /* IDGAFOSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDGAFOSView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10DBFC0192841C600E7C890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10DBFCB192841C600E7C890 /* ScreenSaver.framework in Frameworks */,
+				E10DBFC9192841C600E7C890 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10DBFBA192841C600E7C890 = {
+			isa = PBXGroup;
+			children = (
+				E10DBFD0192841C600E7C890 /* IDGAFOS */,
+				E10DBFC7192841C600E7C890 /* Frameworks */,
+				E10DBFC6192841C600E7C890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10DBFC6192841C600E7C890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10DBFC5192841C600E7C890 /* IDGAFOS.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10DBFC7192841C600E7C890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10DBFC8192841C600E7C890 /* Cocoa.framework */,
+				E10DBFCA192841C600E7C890 /* ScreenSaver.framework */,
+				E10DBFCC192841C600E7C890 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E10DBFCC192841C600E7C890 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10DBFCD192841C600E7C890 /* AppKit.framework */,
+				E10DBFCE192841C600E7C890 /* CoreData.framework */,
+				E10DBFCF192841C600E7C890 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E10DBFD0192841C600E7C890 /* IDGAFOS */ = {
+			isa = PBXGroup;
+			children = (
+				E10DBFD7192841C600E7C890 /* IDGAFOSView.h */,
+				E10DBFD8192841C600E7C890 /* IDGAFOSView.m */,
+				E10DBFD1192841C600E7C890 /* Supporting Files */,
+			);
+			path = IDGAFOS;
+			sourceTree = "<group>";
+		};
+		E10DBFD1192841C600E7C890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E10DBFD2192841C600E7C890 /* IDGAFOS-Info.plist */,
+				E10DBFD3192841C600E7C890 /* InfoPlist.strings */,
+				E10DBFD6192841C600E7C890 /* IDGAFOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E10DBFC1192841C600E7C890 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E10DBFC4192841C600E7C890 /* IDGAFOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10DBFDC192841C600E7C890 /* Build configuration list for PBXNativeTarget "IDGAFOS" */;
+			buildPhases = (
+				E10DBFBF192841C600E7C890 /* Sources */,
+				E10DBFC0192841C600E7C890 /* Frameworks */,
+				E10DBFC1192841C600E7C890 /* Headers */,
+				E10DBFC2192841C600E7C890 /* Resources */,
+				E10DBFC3192841C600E7C890 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDGAFOS;
+			productName = IDGAFOS;
+			productReference = E10DBFC5192841C600E7C890 /* IDGAFOS.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10DBFBB192841C600E7C890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gerardo Camarena Gomez";
+			};
+			buildConfigurationList = E10DBFBE192841C600E7C890 /* Build configuration list for PBXProject "IDGAFOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E10DBFBA192841C600E7C890;
+			productRefGroup = E10DBFC6192841C600E7C890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10DBFC4192841C600E7C890 /* IDGAFOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10DBFC2192841C600E7C890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10DBFD5192841C600E7C890 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		E10DBFC3192841C600E7C890 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10DBFBF192841C600E7C890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10DBFD9192841C600E7C890 /* IDGAFOSView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E10DBFD3192841C600E7C890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10DBFD4192841C600E7C890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E10DBFDA192841C600E7C890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E10DBFDB192841C600E7C890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E10DBFDD192841C600E7C890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDGAFOS/IDGAFOS-Prefix.pch";
+				INFOPLIST_FILE = "IDGAFOS/IDGAFOS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		E10DBFDE192841C600E7C890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IDGAFOS/IDGAFOS-Prefix.pch";
+				INFOPLIST_FILE = "IDGAFOS/IDGAFOS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10DBFBE192841C600E7C890 /* Build configuration list for PBXProject "IDGAFOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10DBFDA192841C600E7C890 /* Debug */,
+				E10DBFDB192841C600E7C890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10DBFDC192841C600E7C890 /* Build configuration list for PBXNativeTarget "IDGAFOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10DBFDD192841C600E7C890 /* Debug */,
+				E10DBFDE192841C600E7C890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10DBFBB192841C600E7C890 /* Project object */;
+}
